@@ -4,7 +4,7 @@ import com.springframework.sfgpetclinic.model.Owner;
 
 import java.util.Set;
 
-public interface OwnerInterface {
+public interface OwnerService {
 
     Owner findByLastName(String lastName);
 
